@@ -1,8 +1,8 @@
 class RedisExporter < Formula
   desc "Export data from Redis Cluster to CSV"
   homepage ""
-  url "https://github.com/princemjain/redis-exporter/blob/master/redis-exporter-1.0.0.tar.gz"
-  sha256 "4ce8ee5813ece9595d97f061391d0043cc88510a67c708e273ed059aada17e07"
+  url "https://github.com/princemjain/redis-exporter/raw/master/redis-exporter-1.0.0.tar.gz"
+  sha256 "5d575646b2bd4374712d4a0ac0cb44b54ed2fac2257ec52fae1f146c0abdbd9e"
   version "1.0.0"
   def install
     bin.install "redis-exporter"
